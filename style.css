@@ -1,0 +1,189 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 150%;
+  background-image: url(./images/wp2409705.jpg);
+  background-color: green;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+input {
+  font-size: 100%;
+  text-align: center;
+  padding: 5px 7px;
+}
+
+canvas {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 3px 5px 6px black;
+  margin-right: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  canvas {
+    width: 100%;
+    height: 50%;
+  }
+  input {
+    font-size: 80%;
+  }
+  body {
+    background-image: none;
+    background-color: green;
+  }
+  h1 {
+    font-size: 200%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+  h3 {
+    font-size: 120%;
+  }
+  h4 {
+    font-size: 100%;
+  }
+  h5 {
+    font-size: 80%;
+  }
+  h6 {
+    font-size: 60%;
+  }
+  p {
+    font-size: 80%;
+  }
+  a {
+    font-size: 80%;
+  }
+  button {
+    font-size: 80%;
+  }
+  input[type="text"],
+  input[type="number"] {
+    /* width: 100%; */
+    padding: 5px 7px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px black;
+    outline: none;
+    background-color: #f2f2f2;
+    transition: 0.3s;
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px 7px;
+    font-size: 80%;
+    text-align: center;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px black;
+    outline: none;
+  }
+  footer {
+    font-size: 60%;
+  }
+  ul {
+    font-size: 80%;
+  }
+  li {
+    font-size: 80%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  video {
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 3px 5px 6px black;
+    outline: none;
+    background-color: #f2f2f2;
+    transition: 0.3s;
+    &:hover {
+      background-color: #ddd;
+    }
+    &:focus {
+      background-color: #ccc;
+    }
+    &:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    ::placeholder {
+      color: #888;
+    }
+    :-ms-input-placeholder {
+      color: #888;
+    }
+    ::-ms-input-placeholder {
+      color: #888;
+    }
+    ::-webkit-input-placeholder {
+      color: #888;
+    }
+    :-webkit-placeholder {
+      color: #888;
+    }
+  }
+  table {
+    font-size: 80%;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+  }
+  th,
+  td {
+    font-size: 80%;
+  }
+  input {
+    /* width: 100%; */
+    padding: 5px 7px;
+    font-size: 80%;
+    text-align: center;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px black;
+    outline: none;
+    background-color: #f2f2f2;
+    transition: 0.3s;
+    &:hover {
+      background-color: #ddd;
+    }
+    &:focus {
+      background-color: #ccc;
+    }
+    &:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    ::placeholder {
+      color: #888;
+    }
+    :-ms-input-placeholder {
+      color: #888;
+    }
+    ::-ms-input-placeholder {
+      color: #888;
+    }
+  }
+}
